@@ -8,7 +8,14 @@
  */
 
 function two_sum(arr, target) {
-    
+    var dict = {};
+    for(var i = 0; i < arr.length; i++) {
+        var rem = target - arr[i];
+        if (typeof dict[rem] !== 'undefined') {
+            return [dict[rem], i];
+        }
+        dict[arr[i]] = i;
+    }
 }
 
 module.exports = {two_sum};
