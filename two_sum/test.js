@@ -1,4 +1,3 @@
-var assert = require('assert');
 var {expect} = require('chai');
 var {two_sum} = require('./two_sum');
 

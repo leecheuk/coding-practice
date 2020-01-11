@@ -2,8 +2,8 @@
  * Returns indices of two numbers in arr array that sums to target. 
  * Assume there exists one solution. 
  * 
- * @param {number[]} arr 
- * @param {number} target 
+ * @param {number[]} arr - array of possible numbers for target
+ * @param {number} target - sum target
  * @returns {number[]}
  */
 
